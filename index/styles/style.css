@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h3, h4, a, thead{
+    font-family: "Courier New";
+}
+h1,
+h2,
+h4,
+.header {
+    text-align: center;
+}
+.header__sub-title {
+    color: rgb(104, 104, 104);
+}
+.header__navigation a {
+    color: green;
+    margin: 10px;
+}
+.about {
+    max-width: 1000px;
+    display: inline-block;
+}
+summary {
+    max-width: 500px;
+    display: inline-block;
+}
+ul, .main__img {
+    display: inline-block;
+}
+.main__img img{
+    width: 180px;
+}
+mark {
+    background: white;
+    font-weight: 600;
+}
+img {
+    /* width: 350px; */
+    width: 250px;
+}
+address a {
+    display: block;
+}
+.footer {
+    text-align: center;
+}
+a {
+    color: green;
+}
+th, tr, td {
+    padding: 15px;
+}
+tbody tr:nth-child(2n + 1) {
+    background: rgba(218, 239, 218, 0.694);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+textarea {
+    display: block;
+}
