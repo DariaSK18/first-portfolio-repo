@@ -1,5 +1,12 @@
-body {
+* {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main {
+    padding: 20px;
 }
 h4 {
     color: green;
@@ -21,9 +28,8 @@ h4,
     margin: 10px;
 }
 .about {
-    max-width: 1000px;
+    max-width: 690px;
     display: inline-block;
-    
 }
 summary {
     max-width: 500px;
@@ -42,6 +48,9 @@ mark {
 img {
     /* width: 350px; */
     width: 250px;
+}
+#skills, form, #contacts {
+    margin: 0 160px;
 }
 address a {
     display: block;
